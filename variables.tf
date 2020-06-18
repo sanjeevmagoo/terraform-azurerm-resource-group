@@ -6,6 +6,7 @@ variable "name" {
 variable "location" {
   type        = string
   description = "(Required) The location where the resource group should be created. For a list of all Azure locations, please consult this link or run az account list-locations --output table."
+  default     = "East US"
 }
 
 variable "app" {
